@@ -5,7 +5,7 @@ Computer vision for micro-CT datasets of flowers
 The code in this repository is used to evaluate computer vision as a tool for analyzing floral micro-CT datasets of cacao (*Theobroma cacao*). It is built in Google Colab Notebooks with Python 3 and MONAI Label 1.5.
 
 <p align="center">
-<a href="url"><img src="https://github.com/aubricot/CV_for_flower_CT/blob/master/images/unet_banner.jpg" align="middle" width="900" ></a></p>   
+<a href="url"><img src="https://github.com/aubricot/Cacao_3D_gmm/blob/main/images/unet_banner.jpg" align="middle" width="900" ></a></p>   
 
 ## Data and model availability
 Micro-CT datasets of flowers and their corresponding segmentation files will be made available shortly, along with trained models.
