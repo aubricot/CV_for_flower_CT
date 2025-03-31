@@ -14,6 +14,11 @@ The code in this repository is used to evaluate computer vision as a tool for an
 <p align="center">
 <sub><sup>Sample model input image and label along with predicted output.</sup></sub>
 
+<p align="center">
+<a href="url"><img src="https://github.com/aubricot/CV_for_flower_CT/blob/main/images/Sketchfab_models.png" align="middle" width="700" ></a></p>   
+<p align="center">
+<sub><sup>Interactive 3D models of UNETR Model ground truth (label), output (raw), and output (post-processed) are available on [Sketchfab](https://skfb.ly/pvw6n).</sup></sub>
+
 ## Data and model availability
 Micro-CT datasets of flowers and their corresponding segmentation files will be made available shortly, along with trained models.
 
