@@ -20,7 +20,7 @@ The code in this repository is used to evaluate computer vision as a tool for an
 <sub><sup>Interactive 3D models of UNETR Model ground truth (label), output (raw), and output (post-processed) are available on <a href="https://skfb.ly/pvw6n">Sketchfab</a></sup></sub>
 
 ## Data and model availability
-Three versions of the training datasets (micro-CT images of flowers and their corresponding segmentation files) are available on Zenodo ([masked training data used to train best models](https://zenodo.org/records/15123180), unmasked training data with cleaned segmentations and exclusion critera, unmasked training data with original segmentations and no exclusion criteria). Train notebooks for the 5 best trianing attempts and their corresponding train graphs are available on [Zenodo](https://doi.org/10.5281/zenodo.15126203). Trained models will be made available soon.
+Three versions of the training datasets (micro-CT images of flowers and their corresponding segmentation files) are available on Zenodo (masked training data used to train best models, unmasked training data with cleaned segmentations and exclusion critera, [unmasked training data with original segmentations and no exclusion criteria](https://zenodo.org/records/15123180)). Train notebooks for the 5 best trianing attempts and their corresponding train graphs are available on [Zenodo](https://doi.org/10.5281/zenodo.15126203). Trained models will be made available soon.
 
 ## References
 
