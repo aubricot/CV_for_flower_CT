@@ -1,6 +1,6 @@
 # CV_for_flower_CT
 Computer vision for micro-CT datasets of flowers using UNETR and MONAI    
-*Last updated 31 March 2025*    
+*Last updated 2 April 2025*    
 
 The code in this repository is used to evaluate computer vision as a tool for analyzing floral micro-CT datasets of cacao (*Theobroma cacao*). It is built in Google Colab Notebooks with Python 3 and MONAI Core 1.5. Micro-CT datasets and labels were generated in 3D Slicer as .nrrd files. They are converted to NIFTI (.nii.gz) format and registered to eachother in [preprocessing_whole_flower_nrrd2nifti.ipynb](https://github.com/aubricot/CV_for_flower_CT/blob/main/preprocessing_whole_flower_nrrd2nifti.ipynb). UNETR is trained to recognize whole flower outlines from CT data in [Cacao_Whole_Flower_Seg_unetr_train.ipynb](https://github.com/aubricot/CV_for_flower_CT/blob/main/Cacao_Whole_Flower_Seg_unetr_train.ipynb). Results are visualized on input and output images to generate figures and interpret results in [Cacao_Whole_Flower_Seg_unetr_inspect_results.ipynb](https://github.com/aubricot/CV_for_flower_CT/blob/main/Cacao_Whole_Flower_Seg_unetr_inspect_results.ipynb).
 
@@ -20,7 +20,7 @@ The code in this repository is used to evaluate computer vision as a tool for an
 <sub><sup>Interactive 3D models of UNETR Model ground truth (label), output (raw), and output (post-processed) are available on <a href="https://skfb.ly/pvw6n">Sketchfab</a></sup></sub>
 
 ## Data and model availability
-Micro-CT datasets of flowers and their corresponding segmentation files will be made available shortly, along with trained models.
+Three versions of the training datasets (micro-CT images of flowers and their corresponding segmentation files) are available on Zenodo ([masked training data used to train best models](https://zenodo.org/records/15123180), unmasked training data with cleaned segmentations and exclusion critera, unmasked training data with original segmentations and no exclusion criteria). Train notebooks for the 5 best trianing attempts and their corresponding train graphs are available on [Zenodo](https://doi.org/10.5281/zenodo.15126203). Trained models will be made available soon.
 
 ## References
 
