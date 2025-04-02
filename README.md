@@ -5,7 +5,7 @@ Computer vision for micro-CT datasets of flowers using UNETR and MONAI
 The code in this repository is used to evaluate computer vision as a tool for analyzing floral micro-CT datasets of cacao (*Theobroma cacao*). It is built in Google Colab Notebooks with Python 3 and MONAI Core 1.5. Micro-CT datasets and labels were generated in 3D Slicer as .nrrd files. They are converted to NIFTI (.nii.gz) format and registered to eachother in [preprocessing_whole_flower_nrrd2nifti.ipynb](https://github.com/aubricot/CV_for_flower_CT/blob/main/preprocessing_whole_flower_nrrd2nifti.ipynb). UNETR is trained to recognize whole flower outlines from CT data in [Cacao_Whole_Flower_Seg_unetr_train.ipynb](https://github.com/aubricot/CV_for_flower_CT/blob/main/Cacao_Whole_Flower_Seg_unetr_train.ipynb). Results are visualized on input and output images to generate figures and interpret results in [Cacao_Whole_Flower_Seg_unetr_inspect_results.ipynb](https://github.com/aubricot/CV_for_flower_CT/blob/main/Cacao_Whole_Flower_Seg_unetr_inspect_results.ipynb).
 
 <p align="center">
-<a href="url"><img src="https://github.com/aubricot/CV_for_flower_CT/blob/main/images/unet_banner.jpg" align="middle" width="700" ></a></p>   
+<a href="url"><img src="https://github.com/aubricot/CV_for_flower_CT/blob/main/images/unetr_pipeline.jpg" align="middle" width="900" ></a></p>   
 <p align="center">
 <sub><sup>Schema of CT training inputs and model ouputs for a cacao flower.</sup></sub>
   
